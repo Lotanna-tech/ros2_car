@@ -1,0 +1,15 @@
+[0.189s] Invoking command in '/home/lotanna/Desktop/ros2_car/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lotanna/Desktop/ros2_car/build/description -- -j4 -l4
+[0.654s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.162s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.862s] [31mCMake Error at CMakeLists.txt:25 (install):
+[2.863s]   install DIRECTORY given non-directory "fake_lidar.py" to install.
+[2.863s] 
+[2.863s] [0m
+[3.138s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.139s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.195s] -- Added test 'lint_cmake' to check CMake code style
+[3.227s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.238s] -- Added test 'xmllint' to check XML markup files
+[3.308s] -- Configuring incomplete, errors occurred!
+[3.341s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[3.346s] Invoked command in '/home/lotanna/Desktop/ros2_car/build/description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lotanna/Desktop/ros2_car/build/description -- -j4 -l4

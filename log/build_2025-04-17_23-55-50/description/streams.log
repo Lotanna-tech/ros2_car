@@ -1,0 +1,34 @@
+[0.057s] Invoking command in '/home/lotanna/Desktop/ros2_car/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lotanna/Desktop/ros2_car/build/description -- -j4 -l4
+[0.105s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.694s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.135s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.136s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.183s] -- Added test 'lint_cmake' to check CMake code style
+[1.249s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.251s] -- Added test 'xmllint' to check XML markup files
+[1.253s] -- Configuring done (1.2s)
+[1.570s] -- Generating done (0.1s)
+[1.617s] -- Build files have been written to: /home/lotanna/Desktop/ros2_car/build/description
+[1.660s] Invoked command in '/home/lotanna/Desktop/ros2_car/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lotanna/Desktop/ros2_car/build/description -- -j4 -l4
+[1.680s] Invoking command in '/home/lotanna/Desktop/ros2_car/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lotanna/Desktop/ros2_car/build/description
+[1.703s] -- Install configuration: ""
+[1.704s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/urdf
+[1.704s] -- Installing: /home/lotanna/Desktop/ros2_car/install/description/share/description/urdf/my_robot.urdf.xacro
+[1.767s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/rviz
+[1.768s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh
+[1.768s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/right_tire.dae
+[1.768s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/waffle_base.dae
+[1.768s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/right_tire.stl
+[1.768s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/left_tire.stl
+[1.769s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/left_tire.dae
+[1.769s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/lds.stl
+[1.769s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/waffle_base.stl
+[1.769s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/launch
+[1.769s] -- Installing: /home/lotanna/Desktop/ros2_car/install/description/share/description/launch/display.launch.py
+[1.796s] [31mCMake Error at cmake_install.cmake:55 (file):
+[1.796s]   file INSTALL cannot find
+[1.796s]   "/home/lotanna/Desktop/ros2_car/src/description/scripts/fake_lidar.py": No
+[1.796s]   such file or directory.
+[1.796s] 
+[1.797s] [0m
+[1.799s] Invoked command in '/home/lotanna/Desktop/ros2_car/build/description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lotanna/Desktop/ros2_car/build/description

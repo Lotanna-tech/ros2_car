@@ -1,0 +1,9 @@
+/home/lotanna/Desktop/ros2_car/build/description/CMakeFiles/uninstall.dir
+/home/lotanna/Desktop/ros2_car/build/description/CMakeFiles/description_uninstall.dir
+/home/lotanna/Desktop/ros2_car/build/description/CMakeFiles/test.dir
+/home/lotanna/Desktop/ros2_car/build/description/CMakeFiles/edit_cache.dir
+/home/lotanna/Desktop/ros2_car/build/description/CMakeFiles/rebuild_cache.dir
+/home/lotanna/Desktop/ros2_car/build/description/CMakeFiles/list_install_components.dir
+/home/lotanna/Desktop/ros2_car/build/description/CMakeFiles/install.dir
+/home/lotanna/Desktop/ros2_car/build/description/CMakeFiles/install/local.dir
+/home/lotanna/Desktop/ros2_car/build/description/CMakeFiles/install/strip.dir

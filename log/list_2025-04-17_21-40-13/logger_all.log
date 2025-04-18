@@ -1,0 +1,56 @@
+[0.742s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/lotanna/Desktop/ros2_car']
+[0.743s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/lotanna/Desktop/ros2_car'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d56c11ffaa0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7d56c111f6b0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7d56c111f6b0>>, mixin_verb=('list',))
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.878s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lotanna/Desktop/ros2_car'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extensions ['ignore', 'ignore_ament_install']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extension 'ignore'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extension 'ignore_ament_install'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extensions ['colcon_pkg']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extension 'colcon_pkg'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extensions ['colcon_meta']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extension 'colcon_meta'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extensions ['ros']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extension 'ros'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extensions ['cmake', 'python']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extension 'cmake'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extension 'python'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extensions ['python_setup_py']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car) by extension 'python_setup_py'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/build) by extensions ['ignore', 'ignore_ament_install']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/build) by extension 'ignore'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/build) ignored
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/install) by extensions ['ignore', 'ignore_ament_install']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/install) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/install) ignored
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/log) by extensions ['ignore', 'ignore_ament_install']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/log) by extension 'ignore'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/log) ignored
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extensions ['ignore', 'ignore_ament_install']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extension 'ignore'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extension 'ignore_ament_install'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extensions ['colcon_pkg']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extension 'colcon_pkg'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extensions ['colcon_meta']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extension 'colcon_meta'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extensions ['ros']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extension 'ros'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extensions ['cmake', 'python']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extension 'cmake'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extension 'python'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extensions ['python_setup_py']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src) by extension 'python_setup_py'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src/description) by extensions ['ignore', 'ignore_ament_install']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src/description) by extension 'ignore'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src/description) by extension 'ignore_ament_install'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src/description) by extensions ['colcon_pkg']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src/description) by extension 'colcon_pkg'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src/description) by extensions ['colcon_meta']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src/description) by extension 'colcon_meta'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src/description) by extensions ['ros']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lotanna/Desktop/ros2_car/src/description) by extension 'ros'
+[0.986s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lotanna/Desktop/ros2_car/src/description' with type 'ros.ament_cmake' and name 'description'
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

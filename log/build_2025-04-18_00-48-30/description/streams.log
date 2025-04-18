@@ -1,0 +1,11 @@
+[0.048s] Invoking command in '/home/lotanna/Desktop/ros2_car/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lotanna/Desktop/ros2_car/build/description -- -j4 -l4
+[0.124s] Invoked command in '/home/lotanna/Desktop/ros2_car/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lotanna/Desktop/ros2_car/build/description -- -j4 -l4
+[0.147s] Invoking command in '/home/lotanna/Desktop/ros2_car/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lotanna/Desktop/ros2_car/build/description
+[0.170s] -- Install configuration: ""
+[0.170s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.170s]   file INSTALL cannot find
+[0.171s]   "/home/lotanna/Desktop/ros2_car/src/description/scripts/fake_lidar.py": No
+[0.171s]   such file or directory.
+[0.171s] 
+[0.171s] [0m
+[0.173s] Invoked command in '/home/lotanna/Desktop/ros2_car/build/description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lotanna/Desktop/ros2_car/build/description

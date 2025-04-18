@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+
+<robot name="my_robot"  xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <material name="black">
+        <color rgba="0.0 1.0 0.0 1.0"/>
+    </material>
+
+    <material name="blue">
+        <color rgba="0 0 1 1"/>
+    </material>
+    
+    <link name='base_link'>
+        <visual>
+            <geometry>
+                <mesh filename="package://description/mesh/waffle_base.stl" scale="0.003 0.003 0.003"/>
+
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <material name="black"></material>
+            
+        </visual>
+    </link>
+
+    <link name='right_link'>
+        <visual>
+            <geometry>
+                <mesh filename="package://description/mesh/right_tire.stl" scale=".003 .003 .003"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name='left_link'>
+
+        <visual>
+            <geometry>
+                <mesh filename="package://description/mesh/left_tire.stl" scale=".003 .003 .003"/>
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            
+        </visual>
+    </link>
+
+    <link name='lidar_link'>
+        <visual>
+            <geometry>
+                <mesh filename="package://description/mesh/lds.stl" scale=".003 .003 .003"/>
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <material name='blue'></material>
+            
+        </visual>
+
+    </link>
+
+
+    <joint name="base_lidar_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="lidar_link"/>
+        <origin xyz="0.0 0.0 .36" rpy="0.0 0.0 0.0"/>
+        
+        
+        
+    </joint>
+
+
+
+
+    <joint name="base_left_joint" type="revolute">
+
+        <parent link="base_link"/>
+        <child link="left_link"/>
+        <origin xyz="0.187 -0.43 0.06" rpy="0.0 0.0 0.0"/>
+        <axis xyz="0.0 1.0 0.0"/>
+        <limit lower="-1.57" upper="1.57" effort="1.0" velocity="1.0"/>
+        
+        
+        
+        
+        
+    </joint>
+
+
+
+    <joint name="base_right_joint" type="revolute">
+        <parent link="base_link"/>
+        <child link="right_link"/>
+        <origin xyz="0.187 0.43 0.06" rpy="0 0 0"/>
+        <axis xyz="0.0 1.0 0.0"/>
+        <limit lower="-1.57" upper="1.57" effort="1.0" velocity="1.0"/>
+        
+        
+    </joint>
+    <inertial>
+        <mass value="1.0"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+      </inertial>
+      
+      <collision>
+        <geometry>
+          <box size="0.5 0.5 0.2"/>
+          <!-- or cylinder/sphere/mesh -->
+        </geometry>
+      </collision>
+      
+</robot>

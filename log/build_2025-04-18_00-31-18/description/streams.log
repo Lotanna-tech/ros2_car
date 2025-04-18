@@ -1,0 +1,36 @@
+[0.094s] Invoking command in '/home/lotanna/Desktop/ros2_car/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lotanna/Desktop/ros2_car/build/description -- -j4 -l4
+[0.193s] Invoked command in '/home/lotanna/Desktop/ros2_car/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lotanna/Desktop/ros2_car/build/description -- -j4 -l4
+[0.226s] Invoking command in '/home/lotanna/Desktop/ros2_car/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lotanna/Desktop/ros2_car/build/description
+[0.275s] -- Install configuration: ""
+[0.275s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/urdf
+[0.276s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/urdf/my_robot.urdf.xacro
+[0.279s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/rviz
+[0.279s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh
+[0.279s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/right_tire.dae
+[0.280s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/waffle_base.dae
+[0.280s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/right_tire.stl
+[0.280s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/left_tire.stl
+[0.280s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/left_tire.dae
+[0.286s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/lds.stl
+[0.286s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/mesh/waffle_base.stl
+[0.287s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/launch
+[0.287s] -- Installing: /home/lotanna/Desktop/ros2_car/install/description/share/description/launch/display.launch.py
+[0.288s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/scripts
+[0.288s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/scripts/fake_lidar.py
+[0.288s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/lib/description/fake_lidar.py
+[0.289s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/ament_index/resource_index/package_run_dependencies/description
+[0.292s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/ament_index/resource_index/parent_prefix_path/description
+[0.293s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/environment/ament_prefix_path.sh
+[0.293s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/environment/ament_prefix_path.dsv
+[0.293s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/environment/path.sh
+[0.294s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/environment/path.dsv
+[0.294s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/local_setup.bash
+[0.294s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/local_setup.sh
+[0.299s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/local_setup.zsh
+[0.300s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/local_setup.dsv
+[0.301s] -- Installing: /home/lotanna/Desktop/ros2_car/install/description/share/description/package.dsv
+[0.302s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/ament_index/resource_index/packages/description
+[0.303s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/cmake/descriptionConfig.cmake
+[0.303s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/cmake/descriptionConfig-version.cmake
+[0.304s] -- Up-to-date: /home/lotanna/Desktop/ros2_car/install/description/share/description/package.xml
+[0.304s] Invoked command in '/home/lotanna/Desktop/ros2_car/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lotanna/Desktop/ros2_ws/install/robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lotanna/Desktop/ros2_car/build/description
